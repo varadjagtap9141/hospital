@@ -1,6 +1,10 @@
 <!doctype html>
 <?php include "connection.php"; 
 session_start();
+if(!isset($_SESSION['admin_id'])) {
+    header("Location: ../index.php");
+    exit();
+}
 ?>
 <html lang="en" class="light-style layout-menu-fixed layout-compact" dir="ltr" data-theme="theme-default"
     data-assets-path="../admin_assets/" data-template="vertical-menu-template-free" data-style="light">

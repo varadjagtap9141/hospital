@@ -21,7 +21,7 @@ $result=mysqli_query($conn,$query);
                             <th>Department</th>
                             <th>Doctor</th>
                             <th>Status</th>
-                            <th>Action</th>
+                            <!-- <th>Action</th> -->
                         </tr>
                     </thead>
                     <tbody>
@@ -36,9 +36,9 @@ $result=mysqli_query($conn,$query);
                                 <td><?=$data['department_name']?></td>
                                 <td><?=$data['doctor_name']?></td>
                                 <td class="text-uppercase"><?=$data['status']?></td>
-                                <td>
+                                <!-- <td>
                                     <a href="view_appointment.php"><button class="btn btn-primary btn-sm">View</button></a>
-                                </td>
+                                </td> -->
                             </tr>
                             <?php
                         }

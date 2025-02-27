@@ -64,13 +64,13 @@
                     <div class="col-md-4 mt-4">
                       <h6 class="fw-normal">Social Media Links</h6>
                     <div class="row">
-                          <label class="col-sm-3 col-form-label" for="link_1">Link 1</label>
+                          <label class="col-sm-3 col-form-label" for="link_1">X</label>
                           <div class="col-sm-9">
                             <input type="url" class="form-control" value="<?=$row['link_1']?>" id="link_1" name="link_1" />
                           </div>
                         </div>
                         <div class="row mt-4">
-                          <label class="col-sm-3 col-form-label" for="link_2">Link 2</label>
+                          <label class="col-sm-3 col-form-label" for="link_2">Facebook</label>
                           <div class="col-sm-9">
                             <input
                               type="url"
@@ -81,7 +81,7 @@
                           </div>
                         </div>
                         <div class="row mt-4">
-                          <label class="col-sm-3 col-form-label" for="link_3">Link 3</label>
+                          <label class="col-sm-3 col-form-label" for="link_3">Instagram</label>
                           <div class="col-sm-9">
                             <div class="input-group input-group-merge">
                               <input
@@ -94,7 +94,7 @@
                           </div>
                         </div>
                         <div class="row mt-4">
-                          <label class="col-sm-3 col-form-label" for="link_4">Link 4</label>
+                          <label class="col-sm-3 col-form-label" for="link_4">LinkedIn</label>
                           <div class="col-sm-9">
                             <input
                               type="url"
