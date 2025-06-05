@@ -73,21 +73,20 @@
                                     <span class="input-group-text cursor-pointer"><i class="bx bx-hide"></i></span>
                                 </div>
                             </div>
-                            <?php
-session_start();
-if (isset($_SESSION['error'])) {
-echo '<p class="error-message" style="color: red;">' 
-. $_SESSION['error'] . 
-'</p>';
-unset($_SESSION['error']); // Remove error message after displaying
-} elseif (isset($_SESSION['message'])) {
-echo '<p class="success-message" style="color: green;">' 
-. $_SESSION['message'] . 
-'</p>';
-unset($_SESSION['message']); // Remove success message after displaying
-}
-?>
-
+                                <?php
+                                session_start();
+                                if (isset($_SESSION['error'])) {
+                                echo '<p class="error-message" style="color: red;">' 
+                                . $_SESSION['error'] . 
+                                '</p>';
+                                unset($_SESSION['error']); // Remove error message after displaying
+                                } elseif (isset($_SESSION['message'])) {
+                                echo '<p class="success-message" style="color: green;">' 
+                                . $_SESSION['message'] . 
+                                '</p>';
+                                unset($_SESSION['message']); // Remove success message after displaying
+                                }
+                                ?>
                             <div class="mb-8">
                                 <div class="d-flex justify-content-between mt-8">
                                     <div class="form-check mb-0 ms-2">
